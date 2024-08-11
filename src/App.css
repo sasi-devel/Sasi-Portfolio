@@ -361,3 +361,29 @@ textarea{
 .copyright{
   color: var(--main-color);
 }
+html {
+  scroll-behavior: smooth;
+}
+.project-content li :hover{
+  color: var(--main-color);
+  transition: .5s;
+}
+.nav-links .active{
+  color: var(--main-color);
+}
+.about-project{
+  background-color: var(--main-light);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-project h1{
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.about-project h2{
+  font-size: 20px;
+  font-weight: 500;
+}

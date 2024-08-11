@@ -1,5 +1,5 @@
 export default function Skills(){
-    return <div className="about-bg">
+    return <div className="about-bg" id='Skills'>
                 <div className=" text-center">
                     <h1 className="topic">My <span>Skills</span></h1>
                 </div>

@@ -7,17 +7,20 @@ export default function Myjourney(){
         event.preventDefault();
         setShowPara((prevShowPara)=>!prevShowPara);
     }
-    return <div className="header-bg text-white">
+    return <div className="header-bg text-white"id='My Journey'>
         <div className=" text-center">
             <h1 className="topic">My <span>Journey</span></h1>
         </div>
         <div className="text-center"> 
             <h1 className="text-2xl pt-5 ">Experience</h1>
-            <p className="para text-color">Currently I am working as analyst in Cargill project. But I am interesting in create a beautiful website. Whenever I get time I will create a websites</p>
+            <p className="para text-color">My professional journey began with a role at TCS, where I currently work as an analyst in the Software Asset Management team. In this position, I am responsible for reviewing software, providing detailed reports to the subsequent team, and approving tickets to ensure seamless workflow transitions.
+
+            An essential part of my role involves renewing licenses for various licensed software. I work closely with vendors and publishers to obtain accurate and up-to-date license information, which I then use to update our records. </p>
         </div>
         <div className="text-center abt-btn py-5">
                     <button onClick={handleClick}>{showPara?<a href="#">Read Less<i><FaChevronUp className=" icon h-8"/></i></a>:<a href="#">Read More<i><FaChevronDown className=" icon h-8"/></i></a>}</button>
                     {showPara&& <div>
+                                    
                                     <div className="hidden md:block">
                                         <div className=" flex flex-col justify-center px-20 ">
                                                     <h5 className=" py-10 text-3xl ">Academic Qualification</h5>
@@ -69,9 +72,9 @@ export default function Myjourney(){
                                                 <p>Govt.Girls.Hr.Sec.School, R.K.Pet</p>
                                             </div>
                                         </div>
-                                        <div >
+                                        <div className="px-10">
                                             <h5 className="py-5 text-4xl">Analyst<br/><span className="px-5 text-2xl">(2024 Present)</span></h5>
-                                            <p>I am working as anakyst at present meantime time I am learning frontend also</p>
+                                            <p>In addition to my current role, I am studying React to build dynamic websites and improve my frontend development skills. I am dedicated to continuous learning and applying my knowledge of HTML, CSS, and JavaScript to create engaging web experiences.</p>
                                         </div>
                                 </div>}
                     
